@@ -1,0 +1,41 @@
+name: khp_informatik_exam_denissedato
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # For state management
+  provider: ^6.0.5
+  # For picking images from the image library, and taking new pictures with the camera
+  image_picker: ^1.1.2
+  # For finding commonly used locations on the filesystem
+  path_provider: ^2.1.4
+  # For requesting permissions and checking its status
+  permission_handler: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
