@@ -17,7 +17,7 @@ The `assets/images` directory contains [resolution-aware
 images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
 
 ## Requirements
-* Flutter version 3.19.6 or later
+* Flutter version 3.22.2 or later
 * A Google Chrome, iOS device, or Android device
 
 ## How to run
